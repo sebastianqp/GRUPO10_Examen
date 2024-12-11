@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(
+        rgba(60, 60, 60, 0.5),
+        rgba(60, 60, 60, 0.5)), url("./img/fondo3.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(70, 154, 250); 
+    letter-spacing: -5px;
+}
+
+.logo {
+
+    height: 105px;
+    margin-top: 40px;
+    width: 250px;
+    
+    
+}
+
+.text-description {
+    letter-spacing: 3px;
+    font-family: sans-serif;    
+}
+
+.form-control {
+    background: transparent !important;
+    color: #ffffff !important;
+    font-size: 20px;
+    border-color: #090909;
+    
+}
+
+a .fab {
+    color: rgb(70, 154, 250);
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.p{
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    margin-top: 100px;
+    color: #090909;
+}
+
+.btn{
+    background: #dddddd !important;
+    border-color: black; 
+    font-size: 35px;
+    margin-top: -50px;
+    margin-bottom: -100px;
+    color: rgb(70, 154, 250);
+
+}
+
+.mt-8{
+    margin-top: 100px;
+}
